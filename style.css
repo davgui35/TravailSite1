@@ -1,0 +1,419 @@
+/* Style de polices */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+
+/* Variables utiles */
+:root
+{
+--fond-color: #0f100d;
+--color-title: #888887;
+--color-or:#bea67c;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+/* -------------------------------Menu navbar---------------------------- */
+#menu
+{
+    background:  url(img/pileBois.png), url(img/trogne.png);
+    background-size: 800px, 1200px, 1163px, 800px;
+    background-position: right top, left top;
+    background-repeat: no-repeat, no-repeat;
+    margin: 0;
+    height: 1000px;
+}
+
+/* menu dans la navbar */
+#menu .title-Menu{ 
+    color: var(--color-title);
+    margin-left: 10px;
+}
+
+/* menu déroulant */
+.sous-menu{
+    background-color: var(--fond-color);
+}
+
+/* nav-item */
+.nav-item{
+    color: var(--color-title);
+}
+
+/* lien nav */
+.nav-link{
+    color: var(--color-title);
+    text-transform: uppercase;
+}
+
+.wooder-trait{
+    position:absolute;
+    left:41.5%;
+    top:30px;
+}
+/* ----------------------------------------------header nb01--------------------------------------- */
+/* traitVertical */
+.traitVertical{
+    text-align: center;
+}
+
+.nb01{
+    margin-top: 200px;
+}
+
+.nb01 li:hover{
+    color: var(--color-or);
+}
+
+/* liste or */
+.liste{
+    margin-top: 70px;
+}
+
+/* Bouton learn-more */
+.learn-more{
+    background-color: var(--fond-color);
+    border: 2px solid var(--color-title);
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: var(--color-title);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800; 
+    margin-top: 50px;
+}
+
+/* fleche1 (vers droite) */
+.fleche1{
+    margin-left: 5px;
+}
+
+/* Souris */
+.souris{
+    margin-top:65px;
+}
+
+/* fleche2 (fleche verticale) */
+.fleche2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* lettreF */
+.lettreF{
+    margin-top: 125px;
+}
+
+/* partage */
+.partage{
+    margin-top: 235px;
+}
+
+/* sigle-partage */
+.sigle-partage{
+    margin-top: -20px;
+    margin-left: 100px;
+    margin-right: -300px;
+}
+/*------------------------------------ paragraphe furnitures------------------------------------------ */
+
+/* img-furniture */
+.img-furniture{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+/* para-furniture */
+.para-furniture{
+    margin-top: 250px;
+}
+
+/* trait-furniture */
+.trait-furniture{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* titre */
+#furniture h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* button furniture */
+#furniture .learn-more2{
+    border:none;
+    background-color: #fff;
+}
+
+/* para1 */
+.para1{
+    text-align: inherit;
+    margin-left: 10px;
+    margin-right: 20px;
+    overflow: auto;
+    font-size: 15px;
+}
+
+/* text-furniture */
+#text-furniture{
+    margin-left: 105px;
+}
+/* fleche-furniture */
+.fleche-furniture{
+    margin-left: 10px;
+}
+
+/* chiffre 01. */
+.numero1{
+    margin-top: 70px;
+}
+
+.trait-sous-numero{
+    margin-top: 105px;
+    margin-left: 15px;
+}
+
+/* EcritureFurniture */
+.EcritureFurniture{
+    margin-left: -380px;
+    margin-top: 200px;
+    overflow: hidden;/*Coupe ce qui depasse*/
+}
+/* -------------------------------------paragraphe decor------------------------------------------- */
+
+/* titre */
+#decor h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* lettre D */
+.lettreD{
+    margin-top: -105px;
+}
+
+/* motDecor */
+.motDecor{
+    position:absolute;
+    top: 280%;  
+    left: 10    px; 
+}
+
+/* top-decor */
+.top-decor{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+/* image decor */
+.img-decor{
+    margin-top: -45px;
+    margin-left: 0;
+}
+
+/* trait-decor */
+.trait-decor{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+/* para decor */
+.para2{
+    text-align: justify;
+    height: 100px;
+    font-size: 15px;
+    margin-left: -10px;
+}
+
+/* titre-decor */
+.titre-decor{
+    margin-left: 100px; 
+}
+
+
+/* button decor */
+#decor .learn-more3{
+    border:none;
+    background-color: #fff;
+}
+
+/* fleche-decor */
+.fleche-decor{
+    margin-left: 10px;
+}
+
+/* trait2-sous-numero */
+.numero-decor{
+    margin-left: 90%;
+}
+
+/* numero2 */
+.numero2{
+    margin-top: 60px;
+}
+
+/* trait2-sous-numero */
+.trait2-sous-numero{
+    margin-top: 63px;
+    margin-left: 20px;
+}
+
+/* --------------------------------------------video-demo------------------------------------------------ */
+
+/* video-demo */
+#video-demo{
+    margin-top: 120px;
+}
+
+/* titre */
+#video-demo h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* paragraphe */
+#video-demo p{
+    text-align: center;
+}
+
+/* rond */
+#rond{
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+/* p-img */
+.p-img{
+    margin-top: 20px;
+}
+
+/* --------------------------------------watch video------------------------------------------- */
+
+.fond-buche{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#watch-video{
+    background: url(img/fondBuche.png);
+}
+
+/* video look */
+#look{
+    border: 2px solid var(--color-or);
+    padding-top: 140px;
+    padding-bottom: 140px;
+    padding-left: 180px;
+}
+
+/* titre look */
+#look h1{
+    color: var(--color-or);
+}
+
+#look p{
+    color:#fff;
+}
+
+/* trait blanc */
+#look .trait-look{
+    margin-top: 15px; 
+    margin-right: 15px;
+}
+
+/* trait-or-decor */
+.trait-or-decor{
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+/* watch-button */
+
+#button-watch{
+    width: 200px;
+    margin-left: 180px;
+    border: 1px solid white;
+}
+
+#button-watch .watch-button{
+    border: none;
+    background-color:var(--fond-color);
+    filter:alpha(opacity=70);
+    opacity:0.5;
+    color:#fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+/* play */
+#look .play{
+    width: 500px;
+    margin-top: -235px;
+}
+
+/* ---------------------------------------------About us------------------------------------------------ */
+
+#about{
+    margin-top: 140px;
+}
+
+.top-about{
+    margin-top:100px;
+}
+
+/* trait-about (trait noir) */
+.trait-about{
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+#about h1{
+    margin-left: 25px;
+}
+
+#about p{
+    margin-left: 15px;
+}
+
+/* button */
+#about .learn-more4{
+    margin-left: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+/* fleche-about */
+.fleche-about {
+    margin-left: 10px;
+}
+
+/* trait-or-about2 */
+.trait-or-about2{
+    margin-left: 75px;
+}
+
+/* -------------------------------------------FOOTER-------------------------------------------------------- */
+
+#footer{
+    background-color: var(--fond-color);
+}
+
+#footer p{
+    color: var(--color-title);
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+/* wooder-footer */
+.wooder-footer{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.wooder-trait-footer{
+    margin-left: -160px;
+}
